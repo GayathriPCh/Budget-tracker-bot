@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'NightPumpkin';
+  src: url('./Megatrans3DDemoExtruderight-zr8n4.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'CoffeeHealing';
+  src: url('./MegatransVintageDemoStamp-PVKn2.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff5f6d, #ffc371); /* Gradient background */
+  color: #333;
+}
+
+/* App container */
+.app-container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Slight background for readability */
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+/* Header styles */
+.app-header {
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-family: 'NightPumpkin', sans-serif;
+  font-size: 10rem;
+  color: #f79423; /* Font color */
+  margin: 0;
+}
+
+.app-description {
+  font-family: 'CoffeeHealing', sans-serif;
+  font-size:2rem;
+  color: #333;
+  margin: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.1); /* Light background for description */
+  border-radius: 5px;
+}
+
+/* Button styles */
+.sign-out-button {
+  background-color: #f79423;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.sign-out-button:hover {
+  background-color: #e6791b;
+}
+
+/* Component styles */
+form {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #f79423;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6791b;
+}
+
+.chat-box, ul {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bot-message, .user-message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bot-message {
+  background-color: #e1e1e1;
+  text-align: left;
+}
+
+.user-message {
+  background-color: #f0f8ff;
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
